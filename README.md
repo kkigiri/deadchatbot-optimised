@@ -7,7 +7,7 @@
 
 [![License - MIT](https://img.shields.io/badge/License-MIT-349999?style=for-the-badge)](https://github.com/QuanMCPC/project.discord-dead-chat-bot.bot/blob/master/LICENSE)
 ![Version - 0.1.0](https://img.shields.io/badge/Version-0.1.0-314991?style=for-the-badge)
-![Battries - Not included](https://img.shields.io/badge/Battries-Not_included-b55039?style=for-the-badge)
+![Batteries - Not included](https://img.shields.io/badge/Battries-Not_included-b55039?style=for-the-badge)
 
 **This is currently a Beta software. Expect to see lots of bugs**
 
