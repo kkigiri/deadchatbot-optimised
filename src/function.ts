@@ -1,22 +1,9 @@
-import {
-    ConfigType,
-    RESET_VALUE,
-    CHANNEL_REGEX,
-    LogLevel,
-    SLASH_COMMANDS_COLLECTION,
-    DATABASES
-} from "./const"
-import {
-    updateConfigDB,
-    updateLastMessageDB,
-    updateLeaderboardDB,
-    updateStatusDB
-} from "./updateDatabase"
-import chalk from "chalk"
-import { ActivityType, Client, Message, PresenceStatusData, REST, Routes } from "discord.js"
-import { join } from "path"
-import { upgradeConfig } from "./configUpgrader"
-import { Level } from "level"
+import { ConfigType, RESET_VALUE, CHANNEL_REGEX, LogLevel } from "./const";
+import { updateConfigDB, updateLastMessageDB, updateLeaderboardDB, updateStatusDB } from "./updateDatabase";
+import { ActivityType, Client, Message, PresenceStatusData, REST, Routes } from "discord.js";
+import { join } from "path";
+import { upgradeConfig } from "./configUpgrader";
+import { Level } from "level";
 
 function configValueValidator(type: ConfigType, value: string) {
     var good = true, regex: RegExp | null = null, v = value
